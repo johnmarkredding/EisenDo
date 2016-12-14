@@ -1,0 +1,56 @@
+<!DOCTYPE HTML><html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>John Mark Redding</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<main>
+		<article>
+			<form>
+				<label for="TodoInput"><h3>Write a task!</h3></label>
+				<input id="TodoInput">
+				<h3>Tap to display all that apply</h3>
+			</form>
+		</article>
+			<div id="Imp"><h3>Important</h3></div>
+			<div id="Unimp" class="hidden"><h3>Unimportant</h3></div>
+			<div id="Urg"><h3>Urgent</h3></div>
+			<div id="NUrg" class="hidden"><h3>Not Urgent</h3></div>
+			<input id='Add' type="submit" value="Add It!">
+		<article>
+			<section>
+				<h4>Do it!</h4>
+				<ol id="Do" class="connectedSortable">
+					
+				</ol>
+			</section>
+			<section>
+				<h4>Decide when to do it!</h4>
+				<ol id="Decide" class="connectedSortable">
+					
+				</ol>
+			</section>
+			<section>
+				<h4>Delegate to someone!</h4>
+				<ol id="Delegate" class="connectedSortable">
+					
+				</ol>
+			</section>
+			<section>
+				<h4>Delete it!!</h4>
+				<ol id="Delete" class="connectedSortable">
+					
+				</ol>
+			</section>
+		</article>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="jquery-ui.min.js"></script>
+	<script src="touch-punch.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
