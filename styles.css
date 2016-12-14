@@ -7,6 +7,8 @@ html {
 main {
 	max-width: 400px;
   margin: auto;
+	padding: 0;
+	padding-bottom: 28px;
 	overflow:visible;
 }
 h3 {
@@ -59,7 +61,7 @@ section {
 	padding-top: 28px;
 }
 ol {
-	border: 2px solid #000;
+	border-top: 2px solid #000;
 	list-style-position: inside;
 	margin-top: 10px;
 	padding: 10px;
